@@ -1,0 +1,15 @@
+random_generator : 
+char* random_string(int max, int& m)
+Generates random string of upto a given length wuth characters between 'a' and 'z'
+Picks a string length 'm' in between 1 and max(1 <= m <= max). Length m is tsored in second parameter. Function allocates 'm+1' character. First m characters are chosen at random between 'a' and 'z'. 'm'th character is set to 0 and marks the end of the string.
+
+String in C: represented by an array of characters. Each character is an ASCII representation of the specific integer value. So, "97" represents "a". the individual characters of the array/string can be viewed as digits.
+
+To do:
+Implement an insertion sort algorithm for strings that sorts a given array of strings according to the character at position 'd'. Necessary to include length(Array A len) as it is unsure that digit d exists or not. Non-existing digit d is interpreted as '0' in the sorting process. 
+
+void insertion_sort_digit(char** A, int* A_len, int l, int r, int d)
+
+
+USe this insertion sort to implement "Radix Sort" 
+Measure performance for arrays of random strings x5
